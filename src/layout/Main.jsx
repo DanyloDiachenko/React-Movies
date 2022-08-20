@@ -11,7 +11,7 @@ class Main extends React.Component {
     }
 
     componentDidMount() {
-        fetch(`https://www.omdbapi.com/?apikey=78584b3c&s=matrix`)
+        fetch('https://www.omdbapi.com/?apikey=78584b3c&s=matrix')
             .then(response => response.json())
             .then(data => this.setState({ movies: data.Search, loading: false }))
     }
