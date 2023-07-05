@@ -8,5 +8,5 @@ export default function Footer() {
                 <div>Repo</div>
             </div>
         </>
-    )
-}
+    );
+};
